@@ -1,0 +1,30 @@
+.footerHead{
+  background-color: yellow;
+  color: blue;
+  
+}
+.Footer_container {
+ padding: 40px;
+ display: flex;
+ 
+ width: 90%;
+ justify-content: space-around;
+ margin: 30px auto;
+
+  
+}
+.Footer_container ul{
+  list-style-type: none;
+}
+.icon_list{
+  margin: 40px;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  padding-top: 20px;
+  justify-content: center;
+}
+  
+
