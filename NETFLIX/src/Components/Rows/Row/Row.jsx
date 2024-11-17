@@ -45,7 +45,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   return (
     <div className="row">
       <h1>{title}</h1>
-      <div className="row__posters">
+      <div className="row_posters">
         {movies?.map((movie, index) => (
           <img
             onClick={() => handleClick(movie)}
@@ -54,7 +54,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
               isLargeRow ? movie.poster_path : movie.backdrop_path
             }`}
             alt={movie.name}
-            className={`row__poster ${isLargeRow && "row__posterLarge"}`}
+            className={`row_poster ${isLargeRow && "row_posterLarge"}`}
           />
         ))}
       </div>
